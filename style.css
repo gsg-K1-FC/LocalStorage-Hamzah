@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #294d4a;
+  }
+  
+  #root {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 100%;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #add-div {
+    text-align: center;
+    width: 80%;
+  }
+  
+  .title {
+    height: 30px;
+    margin: 20px 5px;
+    width: 30%;
+  }
+  
+  .description {
+    vertical-align: top;
+  }
+  
+  #add-btn {
+    margin: 20px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: solid 1px #ccc;
+    width: 150px;
+    margin-top: 30px;
+  }
+  
+  #notes-list {
+    align-self: end;
+    margin: 20px 5px;
+    padding: 20px 3px;
+    width: 20rem;
+  }
+  
+  #notes-list button,
+  #edit-note button {
+    width: 70px;
+    height: 30px;
+  }
+  
+  #notes-list .delete {
+    border: 2px solid red;
+    background-color: red;
+    margin-right: 1rem;
+  }
+  #notes-list .edit{
+    border: 2px solid yellowgreen;
+    background-color: yellowgreen;
+  }
+  #notes-list .confirm{
+    border: 2px solid green;
+    background-color: green; 
+  }
+  
+  .list-title{
+    display:flex; 
+    justify-content: space-between;
+  }
+  .hide {
+    display: none;
+  }
+ 
+  
+  
