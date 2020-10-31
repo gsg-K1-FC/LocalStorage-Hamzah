@@ -68,6 +68,12 @@
     border: 2px solid green;
     background-color: green; 
   }
+
+  li .note-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
   
   .list-title{
     display:flex; 

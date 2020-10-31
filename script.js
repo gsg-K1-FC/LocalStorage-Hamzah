@@ -30,7 +30,8 @@ function showNotes(){
         let listItem = document.createElement("li");
         //note title
         let divTitle = document.createElement("div"); 
-        divTitle.textContent = note.title; 
+        divTitle.textContent = note.title;
+        divTitle.classList.add("note-title"); 
         listItem.appendChild(divTitle);
         // note description 
         let divDescription = document.createElement("div"); 
