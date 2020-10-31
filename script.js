@@ -74,10 +74,8 @@ function showNotes(){
             // determine the text inside the button 
             if(this.textContent ==="Edit"){
                 this.textContent = "Confirm";
-            }else{
-                this.textContent = "Edit"; 
             }
-
+            
             if(this.classList.contains("confirm")){
                 const form = createForm(note.title,note.description,index);
                 listItem.removeChild(divTitle);
@@ -121,7 +119,7 @@ function createForm(titleContent,descriptionContent,index){
 function sortElements(){
     notes.sort(function(a,b){
         let compareValue = 0;
-        a.title<b.title? compareValue = -1 : compareValue = 1; 
+        a.title.toLowerCase()<b.title.toLowerCase()? compareValue = -1 : compareValue = 1; 
         return compareValue;
     });
 }
