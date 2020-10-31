@@ -4,7 +4,7 @@ let notes = storedNotes?storedNotes:[];
 showNotes(); 
 
 document.getElementById("add-btn").addEventListener("click",function(){
-   const title = document.getElementById("title").value; 
+   const title = document.getElementById("title").value.trim(); 
    const description = document.getElementById("description").value;
    if(title===""){
        alert("please Enter a title");
