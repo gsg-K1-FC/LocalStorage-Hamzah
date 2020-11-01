@@ -100,6 +100,7 @@ function createForm(titleContent,descriptionContent,index){
 
     const editTitle = document.createElement("input");
     editTitle.classList.add("title");
+    editTitle.classList.add("edit-title");
     editTitle.classList.add("title"+index);
     editTitle.value = titleContent; 
 

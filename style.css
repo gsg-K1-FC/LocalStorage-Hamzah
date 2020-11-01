@@ -28,6 +28,9 @@
     margin: 20px 5px;
     width: 30%;
   }
+  .edit-title{
+    width: 100%;
+  }
   
   .description {
     vertical-align: top;
